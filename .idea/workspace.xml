@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04dd6ef9-206a-448b-b525-0f153b8e0f13" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudGateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudGateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudGateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudGateway/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudGateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudGateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudGateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudGateway/src/main/java/com/dailycodebuffer/CloudGateway/CloudGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudGateway/src/main/java/com/dailycodebuffer/CloudGateway/controller/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudGateway/src/main/java/com/dailycodebuffer/CloudGateway/controller/FallbackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudGateway/src/main/java/com/dailycodebuffer/CloudGateway/model/AuthenticationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudGateway/src/main/java/com/dailycodebuffer/CloudGateway/security/OktaOAuth2WebSecurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudGateway/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudGateway/src/test/java/com/dailycodebuffer/CloudGateway/CloudGatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer-main/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer-main/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer-main/Jenkinsfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer-main/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer-main/k8s/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer-main/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer-main/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer-main/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer-main/src/main/java/com/dailycodebuffer/ConfigServer/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer-main/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer-main/src/test/java/com/dailycodebuffer/ConfigServer/ConfigServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/src/main/java/com/dailycodebuffer/ConfigServer/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/src/test/java/com/dailycodebuffer/ConfigServer/ConfigServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/dailycodebuffer/OrderService/OrderServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/dailycodebuffer/OrderService/config/FeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/dailycodebuffer/OrderService/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/dailycodebuffer/OrderService/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/dailycodebuffer/OrderService/exception/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/dailycodebuffer/OrderService/exception/RestResponseEntityExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/dailycodebuffer/OrderService/external/client/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/dailycodebuffer/OrderService/external/client/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/dailycodebuffer/OrderService/external/decoder/CustomErrorDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/dailycodebuffer/OrderService/external/intercept/OAuthRequestInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/dailycodebuffer/OrderService/external/intercept/RestTemplateInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/dailycodebuffer/OrderService/external/request/PaymentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/dailycodebuffer/OrderService/external/response/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/dailycodebuffer/OrderService/external/response/PaymentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/dailycodebuffer/OrderService/external/response/ProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/dailycodebuffer/OrderService/model/OrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/dailycodebuffer/OrderService/model/OrderResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/dailycodebuffer/OrderService/model/PaymentMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/dailycodebuffer/OrderService/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/dailycodebuffer/OrderService/security/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/dailycodebuffer/OrderService/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/dailycodebuffer/OrderService/service/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/test/java/com/dailycodebuffer/OrderService/OrderServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/test/java/com/dailycodebuffer/OrderService/OrderServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/test/java/com/dailycodebuffer/OrderService/TestServiceInstanceListSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/test/java/com/dailycodebuffer/OrderService/controller/OrderControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/test/java/com/dailycodebuffer/OrderService/service/OrderServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/test/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/test/resources/mock/GetPayment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService/src/test/resources/mock/GetProduct.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/com/dailycodebuffer/PaymentService/PaymentServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/com/dailycodebuffer/PaymentService/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/com/dailycodebuffer/PaymentService/entity/TransactionDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/com/dailycodebuffer/PaymentService/model/PaymentMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/com/dailycodebuffer/PaymentService/model/PaymentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/com/dailycodebuffer/PaymentService/model/PaymentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/com/dailycodebuffer/PaymentService/repository/TransactionDetailsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/com/dailycodebuffer/PaymentService/security/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/com/dailycodebuffer/PaymentService/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/java/com/dailycodebuffer/PaymentService/service/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PaymentService/src/test/java/com/dailycodebuffer/PaymentService/PaymentServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/dailycodebuffer/ProductService/ProductServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/dailycodebuffer/ProductService/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/dailycodebuffer/ProductService/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/dailycodebuffer/ProductService/exception/ProductServiceCustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/dailycodebuffer/ProductService/exception/RestResponseEntityExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/dailycodebuffer/ProductService/model/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/dailycodebuffer/ProductService/model/ProductRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/dailycodebuffer/ProductService/model/ProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/dailycodebuffer/ProductService/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/dailycodebuffer/ProductService/security/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/dailycodebuffer/ProductService/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/src/main/java/com/dailycodebuffer/ProductService/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService/src/test/java/com/dailycodebuffer/ProductService/ProductServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/Spring+Boot+with+Microservers+Repo+details.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s-demo/deploy.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s-demo/svc.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/cloud-gateway-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/config-maps.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/config-server-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/mysql-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/order-service-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/payment-service-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/product-service-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/redis-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/service-registry-statefulset.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/zipkin-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-initial-setup-main/Jenkinsfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-initial-setup-main/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-initial-setup-main/k8s/config-maps.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-initial-setup-main/k8s/mysql-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-initial-setup-main/k8s/redis-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-initial-setup-main/k8s/zipkin-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-registry/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-registry/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-registry/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-registry/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-registry/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-registry/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-registry/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-registry/src/main/java/com/dailycodebuffer/serviceregistry/ServiceRegistryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-registry/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-registry/src/test/java/com/dailycodebuffer/serviceregistry/ServiceRegistryApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/dailycodebuffer/springbootdemo/SpringBootDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/dailycodebuffer/springbootdemo/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/dailycodebuffer/springbootdemo/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/dailycodebuffer/springbootdemo/controller/EmployeeV2Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/dailycodebuffer/springbootdemo/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/dailycodebuffer/springbootdemo/entity/EmployeeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/dailycodebuffer/springbootdemo/error/EmployeeNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/dailycodebuffer/springbootdemo/error/RestResponseEntityExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/dailycodebuffer/springbootdemo/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/dailycodebuffer/springbootdemo/model/ErrorMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/dailycodebuffer/springbootdemo/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/dailycodebuffer/springbootdemo/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/dailycodebuffer/springbootdemo/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/dailycodebuffer/springbootdemo/service/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/java/com/dailycodebuffer/springbootdemo/service/EmployeeV2ServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo/src/test/java/com/dailycodebuffer/springbootdemo/SpringBootDemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Tsz3AOdFZ5kk9jxD6CFRLpXKNs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SpringBootDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dailycodebuffer.springbootdemo.SpringBootDemoApplication" />
+      <module name="spring-boot-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dailycodebuffer.springbootdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpringBootDemoApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04dd6ef9-206a-448b-b525-0f153b8e0f13" name="Changes" comment="" />
+      <created>1691846374612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691846374612</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -15,6 +15,10 @@ spec:
       - name: config-server-app
         image: dailycodebuffer/configserver
         imagePullPolicy: Always
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
         ports:
         - containerPort: 9296
         env:

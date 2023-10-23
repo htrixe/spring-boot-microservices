@@ -6,14 +6,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.circuitbreaker.resilience4j.Resilience4JCircuitBreakerFactory;
 import org.springframework.cloud.circuitbreaker.resilience4j.Resilience4JConfigBuilder;
 import org.springframework.cloud.client.circuitbreaker.Customizer;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.gateway.filter.ratelimit.KeyResolver;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.Bean;
-import org.springframework.security.core.context.ReactiveSecurityContextHolder;
 import reactor.core.publisher.Mono;
 
 @SpringBootApplication
-@EnableEurekaClient
 public class CloudGatewayApplication {
 
 	public static void main(String[] args) {
@@ -21,15 +19,9 @@ public class CloudGatewayApplication {
 	}
 
 
-	/*@Bean
+	@Bean
 	KeyResolver userKeySolver() {
 		return exchange -> Mono.just("userKey");
-	}*/
-	@Bean
-	KeyResolver authUserKeyResolver() {
-		return exchange -> ReactiveSecurityContextHolder.getContext()
-				.map(ctx -> ctx.getAuthentication()
-						.getCredentials().toString());
 	}
 
 	@Bean

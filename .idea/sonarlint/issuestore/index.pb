@@ -22,8 +22,6 @@ dspring-boot-demo/src/main/java/com/dailycodebuffer/springbootdemo/repository/Em
 `spring-boot-demo/src/main/java/com/dailycodebuffer/springbootdemo/SpringBootDemoApplication.java,d\8\d82aa91a1c21064fbf0a3b155ac4274198558126
 í
 bspring-boot-demo/src/main/java/com/dailycodebuffer/springbootdemo/service/EmployeeServiceImpl.java,1\5\15965a6c3ca13dccd75fb2bdf9e40d41bb3923fd
-D
-ConfigServer/pom.xml,f\9\f958ddb088957bc0c87d7e6dda703cb85f539043
 í
 bservice-registry/src/main/java/com/dailycodebuffer/serviceregistry/ServiceRegistryApplication.java,4\1\41a06ab8926846af895a99a91f094492ac692221
 à
@@ -44,8 +42,6 @@ ZOrderService/src/main/java/com/dailycodebuffer/OrderService/exception/CustomExc
 kOrderService/src/main/java/com/dailycodebuffer/OrderService/external/intercept/OAuthRequestInterceptor.java,b\3\b37f254ce56cdc516daada730e4decc0d8c15656
 è
 _OrderService/src/main/java/com/dailycodebuffer/OrderService/external/client/ProductService.java,0\7\077f7e6cda4b5c17b399ab4591d58cda1425ab43
-D
-CloudGateway/pom.xml,c\a\ca13a420943d9c039252b31695545dc68c9fde44
 Ö
 UOrderService/src/main/java/com/dailycodebuffer/OrderService/service/OrderService.java,f\4\f4b8fa166e1b1929c7ee7062fe8a6f020b4e044a
 à
@@ -78,3 +74,33 @@ _PaymentService/src/main/java/com/dailycodebuffer/PaymentService/service/Payment
 SOrderService/src/main/java/com/dailycodebuffer/OrderService/model/OrderRequest.java,a\1\a17530c4a0b071b5cd53d9d5f06876864dbffa22
 â
 YOrderService/src/main/java/com/dailycodebuffer/OrderService/service/OrderServiceImpl.java,f\6\f6b6ade56532523ea37673529f94d5d05b0ca9c8
+è
+_PaymentService/src/main/java/com/dailycodebuffer/PaymentService/security/WebSecurityConfig.java,c\4\c417e70acd0f6ac6e9dfbdb1c6da594383010369
+ë
+aPaymentService/src/main/java/com/dailycodebuffer/PaymentService/controller/PaymentController.java,f\a\facb2ebce45732c208aaadd9b6a5b2db6d4c529f
+è
+_ProductService/src/main/java/com/dailycodebuffer/ProductService/security/WebSecurityConfig.java,7\c\7cbc62a720b7fa3a4802db25f303977d06f3ab72
+ç
+]CloudGateway/src/main/java/com/dailycodebuffer/CloudGateway/model/AuthenticationResponse.java,f\c\fc4bcc3f4763581dfb5f65d022d24ef7147729b7
+à
+XCloudGateway/src/main/java/com/dailycodebuffer/CloudGateway/CloudGatewayApplication.java,6\8\68aa47e139613a693ccc3ed92468f0e81820c623
+î
+dCloudGateway/src/main/java/com/dailycodebuffer/CloudGateway/controller/AuthenticationController.java,1\e\1e453ef8dc697850ec128bfa00c07d3f72c318d5
+è
+_CloudGateway/src/main/java/com/dailycodebuffer/CloudGateway/security/OktaOAuth2WebSecurity.java,f\b\fb2e0eb41c78f8105ae9eb779342455f1261af94
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+O
+ms-initial-setup-main/README.md,0\b\0b685a6a5d20254c51cd996bdcea491e5c49dfb2
+ë
+aProductService/src/main/java/com/dailycodebuffer/ProductService/controller/ProductController.java,2\5\25dd2afb71397d1cf24e74fe192e8aa91983a1b4
+A
+k8s-demo/svc.yaml,4\c\4c4c72b95be5cdd7400f8c793abf2896f9db1e3e
+D
+k8s-demo/deploy.yaml,2\d\2d60ff9a92f23c7340db033353b7f4d57654657c
+B
+docker-compose.yml,3\5\35b8c13cf2eb2a194eada000eb310d65aed53b2a
+K
+service-registry/Dockerfile,d\1\d12594d586c69d38740286d355ce42be5f30ce28
+G
+OrderService/Dockerfile,5\e\5ec3d5f72148f2445fce9a63ab6876ed68a0f16b
